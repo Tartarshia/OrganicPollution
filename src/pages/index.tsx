@@ -1,4 +1,4 @@
-import React,{ReactElement} from "react";
+import React, {ReactElement} from "react";
 export default function Home() {
   return (
     <>
@@ -9,5 +9,5 @@ export default function Home() {
 
 
 const Header = (): ReactElement=> {
-  return (<div class="header"> This is Header  </div>)
+  return (<div className="header"> This is Header  </div>)
 }
