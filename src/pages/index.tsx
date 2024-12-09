@@ -1,4 +1,4 @@
-import React, {ReactElement} from "react";
+import React, { ReactElement } from 'react';
 export default function Home() {
   return (
     <>
@@ -7,7 +7,12 @@ export default function Home() {
   );
 }
 
-
-const Header = (): ReactElement=> {
-  return (<div className="header"> This is Header  </div>)
-}
+const Header = (): ReactElement => {
+  return (
+    <>
+      <div className="navigation">
+        <div className="header"> Header </div>
+      </div>
+    </>
+  );
+};
