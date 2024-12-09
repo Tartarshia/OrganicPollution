@@ -1,0 +1,9 @@
+.menu {
+  height: 4svh;
+  display: flex;
+  align-items: center;
+  .menu-item {
+    min-width: 10svw;
+    margin: auto;
+  }
+}
